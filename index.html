@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+
+	<title>Audio</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<!-- Latest compiled and minified Bootstrap CSS -->
+	<link rel="stylesheet" href="./assets/vendor/bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="d-flex justify-content-around text-primary m-5">
+		<div class="col-lg-6 px-5">
+			<div>
+				<div><h1>Hello, XYZ!</h1></div>
+				<div>
+					<p><b>Welcome to Laungify !</b></p>
+					<p>Welcome to Languify! Speaking English correctly makes one confident and is critical for career & personal development. Languify provides an online platform to learn the art of correct & fluent English speaking and help you develop an overall confident personality. With increasing competition in all the sectors, it is important to not only focus on your core skills but also to gain expertise in expressing them.</p>
+				</div>
+			</div>
+			<div class="custom-box p-3">
+				<div class="pb-4"><h5>Record & Play Audio</h5></div>
+				<div id="controls" class="py-3 px-2">
+					<button id="recordButton" class="btn btn-primary">Record</button>
+					<button id="stopButton" class="btn btn-danger" disabled>Stop</button>
+				</div>
+				<div class="pt-5"><h6>See what you spoke</h6></div>
+				<div class="shadow-md border border-primary py-5 px-3">
+					<p>"Tell me about yourself." Your response would set the tone for the rest of the interview—no pressure! This question can be paralyze, leaving you wondering what it is the interviewer really wants to know.</p>
+				</div>
+				<div>
+					<button>Submit</button>
+				</div>
+			</div>
+		</div>
+		<div class="col-lg-6 custom-boxTwo">
+			<div class="pb-3"><h5>Analysis</h5></div>
+			<div>
+				<button>Fluency</button>
+				<button>Grammer & Pronunciation</button>
+				<button>Vocabulary</button>
+				<button>Body Language</button>
+			</div>
+			<div>Lorem ipsum dolor sit amet consectetur adipisicing elit. A unde placeat quam ab aliquid accusamus animi et aliquam maiores molestiae. Minus vel dolor sint delectus. Voluptatum expedita saepe nobis quo?</div>
+			<div class="d-flex justify-content-around">
+				<div class="custom-boxTwo border border-primary p-2 m-2">
+					<h6>Your Recording</h6>
+					<p>"Tell me about yourself." Your response would set the tone for the rest of the interview—no pressure! This question can be paralyze, leaving you wondering what it is the interviewer really wants to know.</p>
+				</div>
+				<div class="custom-box p-2 m-2">
+					<h6>Corrected Recording</h6>
+					<p>"Tell me about yourself." Your response would set the tone for the rest of the interview—no pressure! This question can be paralyze, leaving you wondering what it is the interviewer really wants to know.</p>
+				</div>
+			</div>
+			<div>
+				<div>
+					<h5>Languify Score:</h5>
+					<h5>6.5 on 10</h5>
+				</div>
+				<div>
+					<button>Give Feedback</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- inserting these scripts at the end to be able to use all the elements in the DOM -->
+	<script src="js/WebAudioRecorder.min.js"></script>
+	<script src="js/app.js"></script>
+	<script src="./FileSaver.js"></script>
+	<script src="./FileSaver.min.js"></script>
+</body>
+</html>

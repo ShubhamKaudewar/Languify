@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow&family=Lato&display=swap');
+.barlow{
+    font-family: 'Barlow', sans-serif;
+}
+.lato{
+    font-family: 'Lato', sans-serif;
+}
+.lightbg{
+    background: #F3F3F3;
+}
