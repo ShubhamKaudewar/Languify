@@ -1,0 +1,24 @@
+{
+    "list": [
+        {
+            "id": 1,
+            "title": "Step 1",
+            "content": "First Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vel blandit diam. Sed ac quam velit. In id elit quis."
+        },
+        {
+            "id":2,
+            "title": "Step 2",
+            "content": "Second Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vel blandit diam. Sed ac quam velit. In id elit quis."
+        },
+        {
+            "id": 3,
+            "title": "Step 3",
+            "content": "Third Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vel blandit diam. Sed ac quam velit. In id elit quis."
+        },
+        {
+            "id": 4,
+            "title": "Step 4",
+            "content": "Fourth Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vel blandit diam. Sed ac quam velit. In id elit quis."
+        }
+    ]
+}
