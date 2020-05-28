@@ -118,7 +118,7 @@ function createDownloadLink(blob,encoding) {
 
 	var blob = new Blob([url], {type: "audio/wav"});
 	var fileName = link.download;
-	// saveAs(blob,fileName);
-	file = window.localStorage.getItem(fileName, blob);
-	reader.readAsDataURL(blob);
+	saveAs(blob,fileName);
+	// file = window.localStorage.getItem(fileName, blob);
+	// reader.readAsDataURL(blob);
 }
